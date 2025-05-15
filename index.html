@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penyemangat Harimu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Click the button to see the letter</h1>
+        <button id="ClickButton">Click</button>
+        <div id="heartContainer" class="hidden">
+            <div class="heart"></div>
+            <p> Gooddd moooorrningggg beautifullll 
+                semangatttt untukkkkk hariiiii iniiiii yaaaaaa
+                I Love U :D
+            </p>
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById('ClickButton').addEventListener('click', function() {
+        document.getElementById('heartContainer').classList.remove('hidden');
+    });
+</script>
+</html>
